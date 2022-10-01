@@ -1,0 +1,23 @@
+.section1Srch{
+    display: flex;
+    align-items: baseline;
+    flex-grow:2 ;
+}
+.inputBox{
+    flex-grow: 2;
+   margin-left: 1rem;
+   max-width: 65%;
+   }
+   .inputBox input{
+       width: 100%;
+       padding: 0.25rem;
+       font-size: 19px;
+       outline: none;
+       border: none;
+       background-color: rgba(127,127,127,255);
+       border-radius: 11px;
+       color: rgb(208, 209, 211);
+   }
+   .srchLogo{
+     font-size: 20px;
+   }

@@ -1,0 +1,14 @@
+.listcnt1{
+    display: flex;
+    gap: 1rem;
+    padding: 0.2rem;
+    padding-left: 0.5rem;
+    border: 1px solid transparent;
+    border-left: 3px solid transparent;
+}
+.listcnt1:hover {
+    background-color: rgba(52,56,60,255);
+    border: 1px solid rgba(52,56,60,255);
+    border-left: 3px solid rgba(242,101,114,255);
+    color: white;
+}

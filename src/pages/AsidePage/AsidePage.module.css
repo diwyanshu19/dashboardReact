@@ -1,0 +1,77 @@
+.section2part2{
+    font-size: 16px;
+    font-weight: 400;
+     max-width: 350px;
+     min-width: 290px;
+     align-self: baseline;
+     
+   }
+   
+   .section2part2fix{
+       width: 85%;
+       margin: auto;
+       display: flex;
+       height: 100%;
+       flex-direction: column;
+    justify-content: space-evenly;
+       margin-top: 0;
+       margin-bottom: 0;
+       gap: 1.5rem;
+     
+   }
+   .section2part2 .announcment .annbox{
+      background-color: rgba(44,48,52,255);
+      line-height: 0.8rem;
+      border-radius: 12px;
+      padding: 0.5rem;
+      padding-bottom: 0.7rem;
+   }
+   .annbox .annboxcnt{
+       width: 85%;
+       margin: auto;
+
+   }
+   .annboxcnt div{
+    border-bottom: 2px solid gray;
+    padding-bottom: 0.4rem;
+    margin-bottom: 0.4rem;
+   }
+   #imp{
+    border-bottom: 2px solid transparent;
+    margin-bottom: 0;
+    padding-bottom: 0.2rem;
+   }
+   p{
+    line-height: 1.2rem;
+   }
+   .People .peoplebox{
+    display: flex;
+    background-color:rgba(44,48,52,255);
+    border-radius: 12px;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.peopleboxcnt{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 0.3rem;
+}
+.Peoplefix{
+    width: 80%;
+    margin: auto;
+}
+.imgpeople{
+   width: 55px;
+   height: 55px;
+}
+
+.col{
+    font-size: 18px;
+    color: white;
+   
+}
+.Peopletext{
+    padding-bottom: 0.5rem;
+    font-size: 14px;
+}

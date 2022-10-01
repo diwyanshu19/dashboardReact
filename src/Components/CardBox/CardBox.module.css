@@ -1,0 +1,35 @@
+.boxproject{
+    max-width: 310px;
+    line-height: 0.8rem;
+    font-size: 15px;
+    padding: 0.5rem;
+    font-weight: 500;
+    background-color: rgba(44,48,52,255);
+    border-radius: 12px;
+    border-left: 10px solid rgb(91,67,147);
+}
+.boxprojectfix{
+    width: 85%;
+    margin: auto;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 0.5rem;
+}
+.boxicons{
+    text-align: end;
+}
+.boxtxt{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    
+}
+.boxtxt p{
+    font-size: 17px;
+    line-height: 1rem;
+
+}
+.col{
+    color: white;
+}

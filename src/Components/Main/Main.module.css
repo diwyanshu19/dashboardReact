@@ -1,0 +1,50 @@
+
+
+.main{
+   flex-grow: 1;
+   padding-top: 1rem;
+   min-height: 100%;
+   border-left: 2px solid gray;
+   display: flex;
+   flex-direction: column;
+
+}
+.mainWrapper{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.searchUser{
+ display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.userButton{
+   display: flex;
+   gap: 2rem;
+   align-items: center;
+}
+.threeButton{
+   display: flex;
+   gap: 2rem;
+   align-items: center;
+    flex-grow: 1;
+
+   justify-content: flex-end;
+   flex-basis: 250px;
+}
+.mainWrapperfix{
+  border-bottom: 2px solid gray;
+  padding-bottom: 0.6rem;
+}
+.mainSection2{
+   display: flex;
+    padding: 0.7rem;
+    color: rgb(123,122,122);
+    flex-grow: 2;
+    gap: 1rem;
+    background-color: rgba(35,36,43,255);
+    
+}

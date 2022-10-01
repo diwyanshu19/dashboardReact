@@ -1,0 +1,31 @@
+.userbigdet{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+ }
+ .userbigimg{
+    width: 70px;
+    height: 70px;
+  }
+  .usersmallimg{
+    width: 55px;
+    height: 55px;
+  }
+    img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+
+  .userbigdettxt{
+    font-size: 22px;
+    padding-bottom: 0.5rem;
+ }
+
+.usersmalldettxt{
+    font-size: 19px;
+    padding-bottom: 0.5rem;
+ }
+ .srchuserlogo{
+    font-size: 20px;
+ }

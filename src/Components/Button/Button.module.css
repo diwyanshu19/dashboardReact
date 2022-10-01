@@ -1,0 +1,10 @@
+.buttonDiv button{
+    padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+    background-color: rgba(44,48,52,255);
+    border: none;
+    font-size: 17px;
+    color: rgb(123,122,122);
+    border-radius: 40px;
+    border: 1px solid white;
+    cursor: pointer;
+ }
