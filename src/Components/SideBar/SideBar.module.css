@@ -1,10 +1,10 @@
 .main{
+    display: block;
+    position: static;
     flex-grow: 4;
     min-height: 100%;
     padding-top: 1.5rem;
-    min-width: 210px;
     justify-content: center;
-   
 }
 .asidefirst{
     height: 500px;
@@ -14,6 +14,8 @@
     color: rgba(140, 137, 137, 0.855);
     justify-content: space-between;
     text-align: center;
+    
+    min-width: 270px;
 
     margin: auto;
 }
@@ -25,4 +27,44 @@
 }
 .logotext {
     font-size: 26px;
+}
+.hidden{
+    display: none;
+}
+.userhidden{
+    display: none;
+ }
+@media only screen and (max-width: 908px){
+    .hidden{
+       display: block;
+    }
+    .asidefirst{
+        display: none;
+    }
+    .main{
+        position: fixed;
+        background-color : rgba(44,48,52,255);
+        box-shadow: 4px 5px 100px  lightslategray;
+     }
+     .userDashBoard{
+        font-size: medium;
+        color: white;
+     }
+     .userhidden{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 0.3rem;
+        margin-left: 0.4rem;
+     }
+ 
+ }
+ 
+ .show{
+    display: flex;
+  
+}
+.asidehidden{
+    display: none;
+   
 }

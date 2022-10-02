@@ -49,7 +49,10 @@
     background-color:rgba(44,48,52,255);
     border-radius: 12px;
     flex-direction: column;
+    flex-grow: 1;
+
     gap: 0.5rem;
+   
 }
 .peopleboxcnt{
     display: flex;
@@ -74,4 +77,22 @@
 .Peopletext{
     padding-bottom: 0.5rem;
     font-size: 14px;
+}
+@media only screen and (max-width: 908px){
+    .section2part2{
+        max-width: 100%;
+        width: 100%;
+    }
+    .section2part2fix{
+     
+     flex-direction: row;
+     flex-wrap: wrap;
+    
+    }
+    .section2part2 .announcment{
+        max-width: 400px;
+    }
+    .People .peoplebox{
+       width: 300px;
+    }
 }

@@ -1,11 +1,11 @@
 import logo from '../../img/emojDash.jpeg';
 import style from './UserProfile.module.css'
-export default function UserProfile({small = false}){
+export default function UserProfile({small = false,dash,userhidden,mainhidden}){
 
-    console.log(small);
+    console.log(mainhidden);
     return (
         <>
-         <div className={style.userbigdet}>
+         <div className={`${!userhidden?!mainhidden?style.userbigdet:mainhidden:userhidden}`}>
             {small && <div className={style.srchuserlogo}>
             <span><i className ="fa fa-bell-o" aria-hidden="true"></i></span>
         </div>}
@@ -14,10 +14,11 @@ export default function UserProfile({small = false}){
              
             </div>
             <div className={small?style.usersmalldettxt:style.userbigdettxt}>
-                {!small &&<span>Hi there,</span>}
-                <p>Sethu Ravichandran
+                {!small &&<span className={`${dash}`}>Hi there,</span>}
+                <p className={`${dash}`}>Sethu Ravichandran
                     {!small && <span>(@sethu-che)</span>}
                     </p>
+
             </div>
         </div>
         </>

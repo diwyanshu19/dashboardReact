@@ -5,7 +5,7 @@ export default function AsidePage(){
     return (
         <>
         <aside className = {style.section2part2}>
-        <section className={style.esection2part2fix}>
+        <section className={style.section2part2fix}>
         <section className = {style.announcment}>
             <div className = {style.anntext}>
                 <span className = {style.col}>Announcements</span>
@@ -29,43 +29,42 @@ export default function AsidePage(){
             </div>
             </div>
             </section>
-            </section>
-
             <section className={style.People}>
        
-        <div className={style.Peopletext}>
-            <span className={style.col}>People</span>
-        </div>
-        <div className= {style.peoplebox}>
-            <section className = {style.Peoplefix}>
-            <div className= {style.peopleboxcnt}>
-                <div className= {style.imgpeople}>
-                   <img src={emojDash} alt=""/>
-                </div>
-                <div className={style.peopletxt}>
-                    <span className= {style.col}>@Carlo</span>
-                </div>
-            </div>
-            <div className={style.peopleboxcnt}>
-                <div className= {style.imgpeople}>
-                 <img src={emojDash} alt=""/>
-                </div>
-                <div className= {style.peopletxt}>
-                    <span className={style.col}>@Jenny</span>
-                </div>
-            </div>
-            <div className= {style.peopleboxcnt}>
-                <div className= {style.imgpeople}>
-                   <img src= {emojDash} alt=""/>
-                </div>
-                <div className={style.peopletxt}>
-                    <span className={style.col}>@Jaswanth</span>
-                </div>
-            </div>
-        </section>
-        </div>
-      </section>
-            </aside>
+       <div className={style.Peopletext}>
+           <span className={style.col}>People</span>
+       </div>
+       <div className= {style.peoplebox}>
+           <section className = {style.Peoplefix}>
+           <div className= {style.peopleboxcnt}>
+               <div className= {style.imgpeople}>
+                  <img src={emojDash} alt=""/>
+               </div>
+               <div className={style.peopletxt}>
+                   <span className= {style.col}>@Carlo</span>
+               </div>
+           </div>
+           <div className={style.peopleboxcnt}>
+               <div className= {style.imgpeople}>
+                <img src={emojDash} alt=""/>
+               </div>
+               <div className= {style.peopletxt}>
+                   <span className={style.col}>@Jenny</span>
+               </div>
+           </div>
+           <div className= {style.peopleboxcnt}>
+               <div className= {style.imgpeople}>
+                  <img src= {emojDash} alt=""/>
+               </div>
+               <div className={style.peopletxt}>
+                   <span className={style.col}>@Jaswanth</span>
+               </div>
+           </div>
+       </section>
+       </div>
+     </section>
+    </section>
+ </aside>
         </>
     )
 }

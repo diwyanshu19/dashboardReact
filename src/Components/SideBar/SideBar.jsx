@@ -1,16 +1,20 @@
 
 import style from './SideBar.module.css'
 import IconItem from './../IconItem/IconItem'
-export default function SideBar(){
-
+import Button from '../Button/Button'
+import UserProfile from '../UserProfile/UserProfile'
+export default function SideBar({sidehandle,side}){
+  
     return (
         <>
-        <main className={style.main}>
-            <aside className={style.asidefirst}>
+        <main className={`${style.main}`}>
+            <aside className={`${style.asidefirst} ${side?style.show:''}`}>
             <div className={style.logo}>
               <div className={style.logoimg}><i className="fa fa-windows" aria-hidden="true"></i></div>
               <div className= {style.logotext}>Dashboard</div>
+              <Button hidden = {style.hidden} sidehandle = {sidehandle}>⬅</Button>
             </div>
+             <UserProfile small = {true} dash = {style.userDashBoard} userhidden = {style.userhidden}/>
             <div className= {style.list_1}>
             <div className= {style.listcontain1}>
              <IconItem icon = {"fa fa-home"}>Home</IconItem>

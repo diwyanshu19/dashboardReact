@@ -21,6 +21,11 @@
   gap: 2rem;
   align-items: center;
 }
+.hidden{
+   /* display: none; */
+   opacity: 0;
+}
+
 .userButton{
    display: flex;
    gap: 2rem;
@@ -47,4 +52,36 @@
     gap: 1rem;
     background-color: rgba(35,36,43,255);
     
+}
+.mainhidden{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 0.5rem;
+}
+@media only screen and (max-width: 908px){
+   .hidden{
+      /* display: block; */
+      opacity: 1;
+      align-self: center;
+   }
+   .clickhidden{
+      /* display: none; */
+      opacity: 0;
+      pointer-events: none;
+   }
+   .mainhidden{
+      display: none;
+   }
+  .mainWrapper{
+   align-items: center;
+  }
+  .searchUser{
+   flex-direction: column;
+   align-items: stretch;
+   gap: 1rem;
+  }
+  .mainSection2{
+   flex-direction: column;
+  }
 }
